@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مساحة سلام  كتاب PDF | اشتري الآن</title>
+  <meta name="description" content="كتاب مساحة سلام  اصنع مساحتك الداخلية للطمأنينة والسكينة. اختر الدفع حسب مكان إقامتك." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      /* Palette marketing : fond clair, confiance, CTA visibles */
+      --bg-page: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-soft: #f1f5f9;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+      --cta-orange: #ea580c;
+      --cta-orange-hover: #c2410c;
+      --cta-green: #059669;
+      --cta-green-hover: #047857;
+      /* Bloc paiement (maquette) */
+      --pay-orange: #e85d04;
+      --pay-orange-hover: #c2410c;
+      --pay-orange-soft: #fff7ed;
+      --pay-green-dark: #008558;
+      --pay-green-dark-hover: #006845;
+      --pay-green-mid: #10b981;
+      --pay-green-mid-hover: #059669;
+      --pay-green-soft: #ecfdf5;
+      --price-strike: #dc2626;
+      --font-body: 'Cairo', sans-serif;
+      --radius: 12px;
+      --radius-sm: 8px;
+      --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      background: var(--bg-page);
+      color: var(--text);
+      line-height: 1.75;
+      min-height: 100vh;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .bg-gradient {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60vh;
+      background: linear-gradient(180deg, #eff6ff 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 0 2rem;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.4rem 1rem;
+      border-radius: 999px;
+      margin-bottom: 1.5rem;
+      border: 1px solid #bfdbfe;
+      letter-spacing: 0.02em;
+    }
+
+    .hero h1 {
+      font-family: var(--font-body);
+      font-size: clamp(2rem, 5.5vw, 2.75rem);
+      font-weight: 800;
+      line-height: 1.3;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+      letter-spacing: -0.02em;
+    }
+
+    .hero .tagline {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 32ch;
+      margin: 0 auto;
+    }
+
+    .section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem 1.5rem;
+      margin-bottom: 1.25rem;
+      box-shadow: var(--shadow);
+    }
+
+    .section h2 {
+      font-family: var(--font-body);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.01em;
+    }
+
+    .section p {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .section p:last-child { margin-bottom: 0; }
+    .section strong { color: var(--text); }
+
+    .section-highlight {
+      border-color: #bfdbfe;
+      background: var(--accent-soft);
+    }
+
+    .hook-text {
+      font-family: var(--font-body);
+      font-size: 1.2rem;
+      line-height: 1.7;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      font-weight: 600;
+    }
+
+    .hook-sub {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-bottom: 0;
+    }
+
+    .teaser-intro {
+      margin-bottom: 0.75rem;
+    }
+
+    .teaser-list {
+      list-style: none;
+      margin: 0 0 1rem 0;
+      padding: 0;
+    }
+
+    .teaser-list li {
+      position: relative;
+      padding: 0.4rem 0 0.4rem 1.5rem;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+
+    .teaser-cta {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+      margin-bottom: 0;
+    }
+
+    .teaser-cta em { color: var(--accent); font-style: normal; }
+
+    .benefits {
+      list-style: none;
+      margin: 0 0 0.75rem 0;
+      padding: 0;
+    }
+
+    .benefits li {
+      position: relative;
+      padding: 0.4rem 2rem 0.4rem 0;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .benefits li::before {
+      content: "✓";
+      position: absolute;
+      right: 0.25rem;
+      top: 0.4rem;
+      color: var(--cta-green);
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .blockquote {
+      font-family: var(--font-body);
+      font-size: 1.05rem;
+      line-height: 1.75;
+      color: var(--text-muted);
+      border-right: 4px solid var(--accent);
+      padding: 1rem 1.25rem 1rem 0;
+      margin: 0;
+      background: var(--accent-soft);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    }
+
+    /* Couverture du livre */
+    .book-cover-wrap {
+      text-align: center;
+      margin: 1.5rem 0 2rem;
+    }
+
+    .book-cover-wrap img {
+      max-width: 220px;
+      width: 100%;
+      height: auto;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--border);
+    }
+
+    .book-cover-wrap .cover-placeholder {
+      max-width: 220px;
+      margin: 0 auto;
+      aspect-ratio: 2/3;
+      background: var(--bg-soft);
+      border: 2px dashed #cbd5e1;
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    /* Section statistiques */
+    .stats-section {
+      margin-bottom: 1.25rem;
+    }
+
+    .stats-section h2 {
+      margin-bottom: 1rem;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 560px) {
+      .stats-grid { grid-template-columns: 1fr; }
+    }
+
+    .stat-card {
+      background: var(--bg-soft);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 1.25rem 1rem;
+      text-align: center;
+    }
+
+    .stat-number {
+      font-family: var(--font-body);
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1.2;
+      margin-bottom: 0.35rem;
+    }
+
+    .stat-label {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .stat-source {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      opacity: 0.8;
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .stat-source a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .stat-source a:hover { text-decoration: underline; }
+
+    /* Choix de paiement — lisibilité renforcée */
+    .section.payment-section {
+      padding: 1.75rem 1.35rem 1.65rem;
+    }
+
+    .payment-section > h2 {
+      text-align: right;
+      font-size: clamp(1.2rem, 3.8vw, 1.45rem);
+      font-weight: 800;
+      line-height: 1.4;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+      letter-spacing: -0.02em;
+    }
+
+    .payment-section .payment-sub-title {
+      text-align: right;
+      color: #475569;
+      font-size: 1.05rem;
+      font-weight: 600;
+      line-height: 1.55;
+      margin-bottom: 1.75rem;
+    }
+
+    .payment-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.35rem;
+      margin-bottom: 0.25rem;
+    }
+
+    @media (max-width: 560px) {
+      .payment-cards { grid-template-columns: 1fr; }
+    }
+
+    .payment-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.65rem 1.25rem;
+      text-align: center;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      box-shadow: var(--shadow);
+    }
+
+    .payment-card:hover {
+      border-color: #cbd5e1;
+      box-shadow: var(--shadow-md);
+    }
+
+    .payment-card.tunisia {
+      border-top: 4px solid var(--pay-orange);
+    }
+
+    .payment-card.international {
+      border-top: 4px solid var(--pay-green-dark);
+    }
+
+    .payment-card .label {
+      margin-bottom: 1rem;
+    }
+
+    .label-pill {
+      display: inline-block;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      padding: 0.45rem 1.15rem;
+      border-radius: 999px;
+      background: var(--bg-soft);
+      border: 1px solid var(--border);
+      line-height: 1.35;
+    }
+
+    .label-pill-orange { color: var(--pay-orange); }
+    .label-pill-green { color: var(--pay-green-dark); }
+
+    .payment-card .desc {
+      font-size: 1rem;
+      color: #475569;
+      margin-bottom: 1.2rem;
+      line-height: 1.8;
+      text-align: center;
+      max-width: 38ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .price-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.55rem 0.75rem;
+      padding: 1.15rem 1rem;
+      border-radius: var(--radius-sm);
+      margin-bottom: 1.25rem;
+      border: 2px solid transparent;
+    }
+
+    .payment-card.tunisia .price-box {
+      background: var(--pay-orange-soft);
+      border-color: rgba(232, 93, 4, 0.35);
+    }
+
+    .payment-card.international .price-box {
+      background: var(--pay-green-soft);
+      border-color: rgba(0, 133, 88, 0.3);
+    }
+
+    .price-box .price-old {
+      text-decoration: line-through;
+      color: var(--price-strike);
+      font-size: 1.05rem;
+      font-weight: 700;
+      opacity: 0.95;
+    }
+
+    .price-box .price-pointer {
+      font-size: 1.2rem;
+      line-height: 1;
+    }
+
+    .price-box .price-current {
+      font-size: 1.48rem;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+    }
+
+    .payment-card.tunisia .price-box .price-current { color: var(--pay-orange); }
+    .payment-card.international .price-box .price-current { color: var(--pay-green-dark); }
+
+    .payment-card .btn-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .btn-payment {
+      display: block;
+      width: 100%;
+      padding: 0.95rem 1.1rem;
+      border-radius: var(--radius-sm);
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-align: center;
+      text-decoration: none;
+      transition: transform 0.15s, box-shadow 0.15s, background 0.15s;
+      border: none;
+      cursor: pointer;
+      line-height: 1.5;
+    }
+
+    .btn-payment.tunisia {
+      background: var(--pay-orange);
+      color: #fff;
+      box-shadow: 0 3px 10px rgba(232, 93, 4, 0.35);
+    }
+
+    .btn-payment.tunisia:hover {
+      background: var(--pay-orange-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 14px rgba(232, 93, 4, 0.4);
+    }
+
+    .btn-payment.international {
+      background: var(--pay-green-dark);
+      color: #fff;
+      box-shadow: 0 3px 10px rgba(0, 133, 88, 0.3);
+    }
+
+    .btn-payment.international:hover {
+      background: var(--pay-green-dark-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 14px rgba(0, 133, 88, 0.35);
+    }
+
+    .btn-payment.international-secondary {
+      background: var(--pay-green-mid);
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+    }
+
+    .btn-payment.international-secondary:hover {
+      background: var(--pay-green-mid-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35);
+    }
+
+    .btn-payment:active { transform: translateY(0); }
+
+    .payment-note {
+      text-align: center;
+      font-size: 0.925rem;
+      color: #475569;
+      line-height: 1.85;
+      margin-top: 1.35rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      max-width: 54ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .payment-note a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .payment-note a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 480px) {
+      .container { padding: 1.5rem 1rem 3rem; }
+      .hero { padding: 2rem 0 1.5rem; }
+      .payment-card { padding: 1.5rem 1.05rem; }
+      .section.payment-section { padding: 1.5rem 1.1rem 1.4rem; }
+      .payment-card .desc { max-width: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <div class="container">
+    <header class="hero">
+      <span class="hero-badge">كتاب PDF</span>
+      <h1>مساحة سلام</h1>
+      <p class="tagline">رحلة هادئة نحو السلام الداخلي والتوازن في مختلف جوانب الحياة</p>
+      <div class="book-cover-wrap">
+        <img src="cover.png" alt="غلاف كتاب مساحة سلام  HG Mental Coaching" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="cover-placeholder" style="display: none;">غلاف الكتاب</div>
+      </div>
+    </header>
+
+    <section class="section section-highlight">
+      <p class="hook-text">«السلام ليس مكاناً نصل إليه، بل <strong>حالة نسمح لأنفسنا بالدخول فيها</strong>  خطوة بخطوة.»</p>
+      <p class="hook-sub">ليس محاضرات ثقيلة ولا وعوداً بعيدة. مفاتيح صغيرة، أسئلة، تذكيرات وتمارين بسيطة تفتح لك نوافذ على حياتك.</p>
+    </section>
+
+    <section class="section">
+      <h2>لماذا هذا الكتاب؟</h2>
+      <p>في زمن يتسابق فيه الجميع  الأخبار، الشعارات، التحديات  نَفقد صوتنا الداخلي وسط الضوضاء. نعيش بين الضغوط والتوقعات حتى ننسى أن نسأل أنفسنا: <strong>هل نحن بخير؟ هل نعيش الحياة كما نريد؟</strong></p>
+      <p><strong>مساحة سلام</strong> دعوة هادئة للتوقف. ليست وصفة جاهزة للسعادة، بل مساحة صغيرة نمنحها لأنفسنا  ننظر فيها إلى دواخلنا بعين المحب، لا بعين الناقد  ونخطو نحو الاتزان بين ما نريد وما نقدر عليه.</p>
+    </section>
+
+    <section class="section stats-section">
+      <h2>ما تقوله الأرقام والدراسات</h2>
+      <p>الصحة النفسية والطمأنينة ليست ترفاً  الأرقام العالمية تذكرنا بذلك:</p>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <p class="stat-number">مليار+</p>
+          <p class="stat-label">شخص يعيش مع اضطرابات نفسية حول العالم  القلق والاكتئاب الأكثر انتشاراً.</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-number">واحد من 4</p>
+          <p class="stat-label">من المصابين باضطرابات القلق يحصلون على علاج  المساحة الذاتية والعادات البسيطة تصبح أساسية.</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-number">انخفاض ملحوظ</p>
+          <p class="stat-label">للإجهاد والقلق عند ممارسة تمارين الوعي والتركيز على اللحظة (دراسات ومراجعات منهجية).</p>
+        </div>
+      </div>
+      <p class="stat-source">مصادر: منظمة الصحة العالمية (WHO)  مراجعات حول تدخلات الوعي الذهني (mindfulness) وتأثيرها على الإجهاد المدرك.</p>
+    </section>
+
+    <section class="section">
+      <h2>ما الذي ينتظرك داخل الكتاب؟</h2>
+      <p class="teaser-intro">أكثر من <strong>30 نافذة</strong> على نفسك وحياتك  لن تكتشفها كلها هنا، بل حين تفتح الكتاب:</p>
+      <ul class="teaser-list">
+        <li>— نافذة على <strong>جسدك</strong> الذي يهمس لك: كيف تصغي له بدل مقاومته</li>
+        <li>— نافذة على <strong>أفكارك</strong>: لماذا تسجيلها يخفف العبء ويُرتب حياتك</li>
+        <li>— نافذة على <strong>الماضي</strong>: لا لتبقى أسيره، بل لتعرف كيف تسامح وتتحرر</li>
+        <li>— نافذة على <strong>العلاقات</strong>: من يرفعك بلطف، ومن يسحبك إلى الأسفل</li>
+        <li>— نافذة على <strong>اللحظة الحالية</strong>: حيث يعيش السلام حقاً</li>
+        <li>وأكثر من ذلك بكثير.</li>
+      </ul>
+      <p class="teaser-cta">أسئلة صادقة، تمارين قصيرة، وتذكيرات تضعها بين يديك  لتستعيد زمام أمورك وتقول لنفسك: <em>«أنا معك، مهما حدث.»</em></p>
+    </section>
+
+    <section class="section">
+      <h2>هل هذا الكتاب لك؟</h2>
+      <p>قد يكون مناسباً لك إن كنت:</p>
+      <ul class="benefits">
+        <li>تشعر أنك تركض دون وجهة، أو أن الهدوء شيء يحدث للآخرين فقط</li>
+        <li>تريد مفاتيح عملية  لا شعارات  لطمأنينة يومية</li>
+        <li>مستعداً لتخصيص وقت قصير لنفسك: أسئلة، تنفس، حدود صحية، لطف مع الذات</li>
+      </ul>
+      <p>التغيير يبدأ بخطوات صغيرة. حين تتراكم، تصنع فرقاً لا يُستهان به.</p>
+    </section>
+
+    <section class="section">
+      <h2>مقتطف من الكتاب</h2>
+      <blockquote class="blockquote">
+        «منح نفسك مساحة سلام ليس ترفاً، بل مسؤولية. حين تهتم بروحك وصحتك النفسية، تصبح أقدر على العطاء للآخرين دون أن تستنزف نفسك  وتتعلم أن تقول "لا" حين يكون ذلك حماية لك، و"نعم" حين تكون مستعداً بصدق.»
+      </blockquote>
+    </section>
+
+    <section class="section payment-section">
+      <h2>اختر طريقة الدفع حسب مكان إقامتك</h2>
+      <p class="payment-sub-title">أين أنت؟</p>
+
+      <div class="payment-cards">
+        <div class="payment-card tunisia">
+          <p class="label"><span class="label-pill label-pill-orange">دفع من تونس</span></p>
+          <p class="desc">يرجى التواصل معي عبر إنستغرام لتحديد موعد الحصة، ثم إتمام عملية الدفع مباشرة بعد تأكيد الحجز.</p>
+          <div class="price-box" role="group" aria-label="السعر">
+            <span class="price-current">15 دينار</span>
+            <span class="price-pointer" aria-hidden="true">👉</span>
+            <span class="price-old">25 دينار</span>
+          </div>
+          <a href="#" id="btn-instagram-tunisia" class="btn-payment tunisia" target="_blank" rel="noopener noreferrer">اضغط هنا وتواصل معي على إنستغرام لشراء الكتاب</a>
+        </div>
+
+        <div class="payment-card international">
+          <p class="label"><span class="label-pill label-pill-green">دفع من خارج تونس</span></p>
+          <p class="desc">يرجى التواصل معي عبر إنستغرام لتحديد موعد الحصة، ثم ادفع ببطاقتك الدولية (Visa, Mastercard…) عبر Podia،</p>
+          <div class="price-box" role="group" aria-label="السعر">
+            <span class="price-current">9,99 €</span>
+            <span class="price-pointer" aria-hidden="true">👉</span>
+            <span class="price-old">15 €</span>
+          </div>
+          <div class="btn-stack">
+            <a href="#" id="btn-instagram-intl" class="btn-payment international" target="_blank" rel="noopener noreferrer">اضغط هنا وتواصل معي على إنستغرام لشراء الكتاب</a>
+            <a href="#" id="btn-international" class="btn-payment international-secondary">ثم ادفع عبر Podia</a>
+          </div>
+        </div>
+      </div>
+
+      <p class="payment-note">الدفع آمن. إن كنت في تونس راسلني على إنستغرام أولاً لنرتّب شراءك، بعد تأكيد الدفع أرسل لك رابط تحميل الكتاب بصيغة PDF. إن كنت خارج تونس إدفع عبر Podia و تحصل فورا على الكتاب بصيغة PDF.</p>
+    </section>
+
+    <footer>
+      <p>كتاب رقمي PDF  مساحة سلام</p>
+    </footer>
+  </div>
+
+  <script>
+    // ← Remplacez par votre profil أو رابط المحادثة على إنستغرام
+    var URL_INSTAGRAM = 'https://www.instagram.com/';
+
+    // Page Podia (الدفع من خارج تونس)
+    var URL_PODIA = 'https://hichamgouia.podia.com/357ff96b-e5ab-4095-b43d-9c03b01d1530';
+
+    document.getElementById('btn-instagram-tunisia').href = URL_INSTAGRAM;
+    document.getElementById('btn-instagram-intl').href = URL_INSTAGRAM;
+    document.getElementById('btn-international').href = URL_PODIA;
+  </script>
+</body>
+</html>
